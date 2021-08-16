@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://musing-lewin-5a9490.netlify.app/* https://koa-script.netlify.app/
