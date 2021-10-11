@@ -45,7 +45,7 @@ export default class IndexPage extends React.Component {
                 <p className="text-white-75 mb-4">Hello and welcome to my portfolio page!</p>
                 <p className="text-white-75 mb-4">I am a full-stack developer who loves coding, cats and coffee. I love building and creating new projects, and am committed to learning new technologies and improving my skills.</p>
                 <p className="text-white-75 mb-4">I’m currently seeking a front-end or full-stack web development opportunity, and am also available for freelance projects. I am experienced with HTML, CSS, Javascript, React & React Native, NodeJS, Express, MongoDB and Bootstrap. I also have familiarity with various middle-wares, NPM, GIT, CLI and other development tools.</p>
-                <p className="text-white-75 mb-4">I am currently residing in Spokane, WA with my wife and our cat <i class="fas fa-cat ml-1"></i>. I am open to local or work, as well as opportunities in Portland, OR * Denver, Co and Salt Lake City, UT.</p>
+                <p className="text-white-75 mb-4">I am currently residing in Spokane, WA with my wife and our cat <i class="fas fa-cat ml-1"></i>. I am open to local or remote work, as well as opportunities in Portland, OR * Denver, Co and Salt Lake City, UT.</p>
                 <a className="btn btn-light js-scroll-trigger" href="#services"
                    onClick={Scroller.handleAnchorScroll}>Skills</a>
               </div>
