@@ -43,9 +43,9 @@ export default class IndexPage extends React.Component {
                 <h2 className="text-white mt-0">About Me</h2>
                 <hr className="divider light my-4"/>
                 <p className="text-white-75 mb-4">Hello and welcome to my portfolio page!</p>
-                <p className="text-white-75 mb-4">I am a full-stack developer who loves coding, cats and coffee. I love building and creating new projects, and am committed to learning new technologies and improving my skills.</p>
-                <p className="text-white-75 mb-4">I’m currently seeking a front-end or full-stack web development opportunity, and am also available for freelance projects. I am experienced with HTML, CSS, Javascript, React & React Native, NodeJS, Express, MongoDB and Bootstrap. I also have familiarity with various middle-wares, NPM, GIT, CLI and other development tools.</p>
-                <p className="text-white-75 mb-4">I am currently residing in Spokane, WA with my wife and our cat <i class="fas fa-cat ml-1"></i>. I am open to local or remote work, as well as opportunities in Portland, OR * Denver, Co and Salt Lake City, UT.</p>
+                <p className="text-white-75 mb-4">I am a full-stack developer who loves coding, cats and coffee <i class="fas fa-mug-hot"></i>. I love building and creating new projects, and am committed to learning new technologies and improving my skills.</p>
+                <p className="text-white-75 mb-4">I’m currently seeking a front-end or full-stack development opportunity, and am also available for freelance projects. I am experienced with HTML, CSS, Javascript, React JS, Node JS, MongoDB and Bootstrap. I also have familiarity with various middle-wares, NPM, GIT and other development tools.</p>
+                <p className="text-white-75 mb-4">I am currently residing in Spokane, WA with my wife and our cat <i class="fas fa-cat ml-1"></i>. I am open to local or remote work, as well as opportunities in the following cities: Portland, OR | Denver, Co | Salt Lake City, UT.</p>
                 <a className="btn btn-light js-scroll-trigger" href="#services"
                    onClick={Scroller.handleAnchorScroll}>Skills</a>
               </div>
@@ -72,10 +72,10 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <i className="fab fa-4x fa-react text-primary mb-4"></i>
                   <p className="text-muted mb-0">React JS</p>
-                  <p className="text-muted mb-0">React Native</p>
-                  <p className="text-muted mb-0">Expo</p>
-                  <p className="text-muted mb-0">Android Studio</p>
+                  <p className="text-muted mb-0">React Hooks & Context API</p>
                   <p className="text-muted mb-0">Redux</p>
+                  <p className="text-muted mb-0">SCSS</p>
+                  <p className="text-muted mb-0">Materialize CSS</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -106,21 +106,21 @@ export default class IndexPage extends React.Component {
           <div className="container-fluid p-0">
             <div className="row no-gutters">
               <div className="col-lg-4 col-sm-6">
-                  <a href="https://mighty-sierra-51681.herokuapp.com/" target="-blank">
-                    <h5 className="mt-2">Shopping List App v-1.0<i class="fas fa-file-code ml-2"></i></h5>
+                  <a href="https://polar-shore-13026.herokuapp.com/register" target="-blank">
+                    <h5 className="mt-2">Contact Keeper App v-1.0 <i class="fas fa-address-card"></i></h5>
                   </a>
                 <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-name">
-                      A project I built and deployed using Mongo DB, Express, React JS and Node JS
+                      A Contact Keeper app I built and deployed using the MERN stack with React   Hooks and Context API. It has full CRUD capability and authentication.
                     </div>
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
                   <a href="https://you-eye.netlify.app/" target="-blank">
-                  <h5 className="mt-2">UI/UX Showcase Project<i class="fas fa-file-code ml-2"></i></h5>
+                  <h5 className="mt-2">UI/UX Showcase Project <i class="fas fa-user-astronaut"></i></h5>
                   </a>
                 <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
@@ -133,7 +133,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                   <a href="https://www.myfavorite-letter.com/" target="-blank">
-                  <h5 className="mt-2">Promotional Website<i class="fas fa-file-code ml-2"></i></h5>
+                  <h5 className="mt-2">Promotional Website <i class="fas fa-sort-alpha-up"></i></h5>
                   </a>
                 <a className="portfolio-box" href="img/portfolio/fullsize/3.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
                   <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
@@ -147,7 +147,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                   <a href="https://octacat.netlify.app/" target="-blank">
-                  <h5 className="mt-2">Github Finder<i class="fas fa-file-code ml-2"></i></h5>
+                  <h5 className="mt-2">Github Finder <i class="fab fa-github-alt"></i></h5>
                   </a>
                 <a className="portfolio-box" href="images/portfolio/fullsize/4.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
                   <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
@@ -159,21 +159,21 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                  <a href="https://polar-shore-13026.herokuapp.com/register" target="-blank">
-                  <h5 className="mt-2">Contact Keeper App v-1.0<i class="fas fa-file-code ml-2"></i></h5>
+                  <a href="https://mighty-sierra-51681.herokuapp.com/" target="-blank">
+                  <h5 className="mt-2">Shopping List App v-1.0 <i class="far fa-list-alt"></i></h5>
                   </a>
                 <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-name">
-                      A Contact Keeper app I built and deployed using the MERN stack with React Hooks and Context API. It has full CRUD capability and authentication. 
+                      My first full stack project using React, Node JS, Express and Mongo DB. A new and improved version coming soon! 
                     </div>
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
                   <a href="https://github.com/Cvan23/weather-api-app" target="-blank">
-                  <h5 className="mt-2">Weather API App<i class="fas fa-file-code ml-2"></i></h5>
+                  <h5 className="mt-2">Weather API App <i class="fas fa-cloud-sun"></i></h5>
                   </a>
                 <a className="portfolio-box" href="img/portfolio/fullsize/6.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
